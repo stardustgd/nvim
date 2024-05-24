@@ -14,11 +14,10 @@ return {
     colorscheme = "nord",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
-      init = { -- this table overrides highlights in all themes
-        -- Normal = { bg = "#000000" },
-      },
-      astrotheme = { -- a table of overrides/changes when applying the astrotheme theme
-        -- Normal = { bg = "#000000" },
+      nord = {
+        WinBar = { bg = "#2e3440" },
+        WinBarNC = { bg = "#2e3440" },
+        WinSeparator = { fg = "#4c566a" },
       },
     },
     -- Icons can be configured throughout the interface
